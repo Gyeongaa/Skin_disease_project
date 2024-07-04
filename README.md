@@ -38,7 +38,7 @@ Train segmentation model
 #### Learning model (.pth) configuration 
 You can check the learning model results by accessing the learning model parameters (key: model_state) and learning curve (key: history_dict) in dictionary form.   
 Inference.py: Check test set performance   
-**Optional argument   **
+**Optional argument**    
 -i –init-dir: Path where the source data and labeling data directories exist    
 -t –task: task number default= task1    
 -c –split-csv: Train dataset, valid dataset, test dataset split table (.csv)    
