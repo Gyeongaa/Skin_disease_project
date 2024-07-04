@@ -14,6 +14,9 @@ Pretrained model setting
 - Batch size: 16
 - Average dice score: 0.90
 
+
+
+
 #### PatchExtraction.py
 Extract patch and mask images used for segmentation model learning based on lesion area (Layer2) in WSI and annotation file (.json)   
 **Optional argument**    
@@ -23,6 +26,7 @@ Extract patch and mask images used for segmentation model learning based on lesi
 -l --level: scale (0: 200x 1: 100x 2: 50x 3: 25x 4: 12.5x), default =2   
 -p --patch-size: Patch image size (pixel), default = 512    
 -s --stride: Interval for extracting patches within the slide image (ratio to image size), default = 1.0   
+
 
 #### Train.py
 Train segmentation model    
